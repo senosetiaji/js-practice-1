@@ -1,0 +1,54 @@
+
+
+h1{
+	font-size: 2em;
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+.content{
+	display: flex;
+	justify-content: center;
+	padding-bottom: 50px;
+}
+
+.table-result{
+	border: 1px solid grey;
+	border-collapse: collapse;
+	width: 100%;
+	text-align: center;
+}
+table{
+	text-align: center;
+}
+thead{
+	font-weight: bold;
+}
+
+.list-head{
+	display: flex;
+	list-style-type: none;
+}
+
+.list-head li{
+	padding: 10px 25px;
+}
+
+input{
+	margin-bottom: 50px;
+}
+
+.jurusan{
+	margin-bottom: 50px;
+}
+
+.sidebar{
+	background: #F7F8E0;
+	margin: auto;
+	position: relative;
+	padding: 50px 25px;
+}
+
+.content-pad{
+	padding: 50px;
+}

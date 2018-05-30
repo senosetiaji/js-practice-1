@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Jquery Practice | Seno Setiaji</title>
+
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+</head>
+<body>
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-3" align="center">
+			<div class="sidebar">
+		<!-- <form>
+			<input type="text" id="pname" ><br><br>
+			<input type="radio" name="opsi" value="game">
+				<label for="game" class="game">game</label>
+
+			<input type="radio" name="opsi" value="mobile">
+				<label for="mobile" class="mobile">mobile</label>
+
+			<input type="radio" name="opsi" value="game">
+				<label for="web" class="web">web</label>
+			<br><br>
+			<button id="submit">Submit</button>
+		</form>
+		<br><br>	 -->
+		<!-- <form action=""> -->
+					<h5>Nama Lengkap</h5>
+						<input type="text" class="form-control" id="fullname"><br>
+						<h5>Kelas</h5>
+						
+						<div class="custom-control custom-radio custom-control-inline">
+						  <input type="radio" name="kelas" class="custom-control-input" value="Sepuluh" id="sepuluh">
+						  <label class="custom-control-label" for="sepuluh">Sepuluh</label>
+						</div>
+						<div class="custom-control custom-radio custom-control-inline">
+						  <input type="radio" name="kelas" class="custom-control-input" value="Sebelas" id="sebelas">
+						  <label class="custom-control-label" for="sebelas">Sebelas</label>
+						</div>
+						<div class="custom-control custom-radio custom-control-inline">
+						  <input type="radio" name="kelas" class="custom-control-input" value="Duabelas" id="duabelas">
+						  <label class="custom-control-label" for="duabelas">Dua Belas</label>
+						</div>
+					<br><br>
+					<h5>Jurusan</h5>
+						<select class="jurusan custom-select" >
+
+							  <option>-Pilih Jurusan-</option>
+							  <option value="TKJ">Teknik Komputer & Jaringan</option>
+							  <option value="TO">Teknik Otomotif</option>
+							  <option value="TP">Teknik Permesinan</option>
+						</select><br>
+
+						<div id="tkj">
+							<h5> Program Study </h5>
+							<div class="custom-control custom-radio custom-control-inline">
+							  <input type="radio" name="prodi" value="RPL" class="custom-control-input" id="rpl">
+							  <label class="custom-control-label" for="rpl">Rekayasa Perangkat Lunak</label>
+							</div>
+							<div class="custom-control custom-radio custom-control-inline">
+							  <input type="radio" name="prodi" value="Jaringan" class="custom-control-input" id="jr">
+							  <label class="custom-control-label" for="jr">Jaringan</label>
+							</div>
+							<div class="custom-control custom-radio custom-control-inline">
+							  <input type="radio" name="prodi" value="AI" class="custom-control-input" id="ai">
+							  <label class="custom-control-label" for="ai">Kecerdasan Buatan</label>
+							</div>
+						</div>
+
+						<div id="tkr">
+							<h5> Program Study</h5>
+							<div class="custom-control custom-radio custom-control-inline">
+							  <input type="radio" name="prodi" value="KR" class="custom-control-input" id="kr">
+							  <label class="custom-control-label" for="kr">Kendaraan Ringan</label>
+							</div>
+							<div class="custom-control custom-radio custom-control-inline">
+							  <input type="radio" name="prodi" value="GAMBAR" class="custom-control-input" id="gb">
+							  <label class="custom-control-label" for="gb">Gambar</label>
+							</div>
+						</div>
+
+						<div id="tm">
+							<h5>Program Study</h5>
+							<div class="custom-control custom-radio custom-control-inline">
+							  <input type="radio" name="prodi" value="bubut" class="custom-control-input" id="mb">
+							  <label class="custom-control-label" for="mb">Mesin Bubut</label>
+							</div>
+							<div class="custom-control custom-radio custom-control-inline">
+							  <input type="radio" name="prodi" value="permesinan" class="custom-control-input" id="pm">
+							  <label class="custom-control-label" for="pm">Teknik Permesinan</label>
+							</div>
+						</div>
+					<br><br>
+				<button onclick="isi.myFunction();" class="btn btn-primary">submit</button>
+		<!-- </form> -->
+			</div>
+		</div>
+		
+			<div class="col-9">
+				<div class="content-pad">
+				<h1>Welcome to <br>Jquery practice-2</h1>
+				<table class="table table-hover table-responsive-md" id="table-result">
+					<thead>
+						<tr>
+							<td>Nama</td>
+							<td>Kelas</td>
+							<td>Jurusan</td>
+							<td>Aksi</td>
+						</tr>
+					</thead>
+					<tbody>
+						
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</div>
+	<script src="js/node_modules/jquery/dist/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+	<script src="js/main.js"></script>
+</body>
+</html>
